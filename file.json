@@ -1,12 +1,24 @@
 {
-    "chores": [
-        "clean the house",
-        "do the laundry",
-        "buy groceries",
-        "sex",
-        "drugs",
-        "hola",
-        "dfdlj",
-        "tomas"
+    "tasks": [
+        {
+            "chore": "Go Classes",
+            "date": "09/25",
+            "priority": "1"
+        },
+        {
+            "chore": "Train BJJ",
+            "date": "11/25",
+            "priority": "2"
+        },
+        {
+            "chore": "Read book",
+            "date": "05/26",
+            "priority": "2"
+        },
+        {
+            "chore": "Play Games",
+            "date": "06/26",
+            "priority": "3"
+        }
     ]
 }
