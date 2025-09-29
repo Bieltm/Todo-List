@@ -3,22 +3,44 @@
         {
             "chore": "Go Classes",
             "date": "09/25",
-            "priority": "1"
+            "priority": "high",
+            "tag": "academic"
         },
         {
             "chore": "Train BJJ",
             "date": "11/25",
-            "priority": "2"
+            "priority": "medium",
+            "tag": "sport"
         },
         {
             "chore": "Read book",
             "date": "05/26",
-            "priority": "2"
+            "priority": "medium",
+            "tag": "academic"
         },
         {
             "chore": "Play Games",
             "date": "06/26",
-            "priority": "3"
+            "priority": "high",
+            "tag": "other"
+        },
+        {
+            "chore": "Train Gym",
+            "date": "10/01",
+            "priority": "low",
+            "tag": "sport"
+        },
+        {
+            "chore": "Private Classes",
+            "date": "01/10",
+            "priority": "high",
+            "tag": "academic"
+        },
+        {
+            "chore": "Meet my friends",
+            "date": "01/10",
+            "priority": "medium",
+            "tag": "other"
         }
     ]
 }
