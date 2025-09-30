@@ -34,10 +34,14 @@ while comand != "exit":
                     print(f"{colors[i]}Chore: {task['chore']}, Due Date: {task['date']}, Tag: {task['tag']}")
         print("\033[0m")  # Reset color
     if comand == "completed":
-        #Fix Error
         chore_done = input("Enter the chore you completed: ")
+        #Search if the input is in the file.json
         if chore_done in [task['chore'] for task in data['tasks']]:
-            data['tasks'].remove({"chore": chore_done})
+            #Check information for each task
+            for i, task in enumerate(data['tasks']):
+                if (task['chore'] == chore_done):    
+                    del data['tasks'][i]
+                    break
             with open("file.json", "w") as file:
                 json.dump(data, file, indent=4)
             print(f"Chore '{chore_done}' marked as completed and removed from the list.")

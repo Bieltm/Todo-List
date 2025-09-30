@@ -35,12 +35,6 @@
             "date": "01/10",
             "priority": "high",
             "tag": "academic"
-        },
-        {
-            "chore": "Meet my friends",
-            "date": "01/10",
-            "priority": "medium",
-            "tag": "other"
         }
     ]
 }
