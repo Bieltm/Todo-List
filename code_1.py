@@ -6,7 +6,7 @@ comand = ""
 while comand != "exit":
     comand = input("enter: (add/show/completed/exit): ").lower()
     if comand == "add":
-        new_chore = input("Enter a new chore: ")
+        new_chore = input("Enter a new chore: ").lower()
         new_date = input("Enter the due date (MM/DD): ")
         new_priority = input("Enter the priority (high/medium/low): ").lower()
         while new_priority not in ["high", "medium", "low"]:
